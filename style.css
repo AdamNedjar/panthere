@@ -753,7 +753,6 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,7 +774,7 @@ h4 {
 }
 
 .tc-white {
-    color: white!important;
+    color: #FFFFFF!important;
     
 }
 
@@ -807,7 +806,6 @@ h4 {
 
 .icon-dark-slate-blue {
     color: #364577!important;
-    border-color: #364577!important;
 }
 
 .bg-dots-bg {
@@ -819,11 +817,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: linear-gradient(rgba(194, 121, 86, 0.2), rgb(70, 43, 30, 0.8)), url("img/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.svg");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
