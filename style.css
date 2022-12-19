@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -705,7 +705,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 35px;
     line-height: 1.4em;
 }
 
@@ -763,11 +763,11 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color: #FFFFFF !important;
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #c27956!important;
 }
 
 .bgc-atomic-tangerine {
@@ -775,7 +775,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
+    
 }
 
 .btn-atomic-tangerine {
@@ -814,7 +815,7 @@ h4 {
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+   background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
@@ -822,7 +823,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.svg");
 }
 
 @media (max-width: 1024px) {
